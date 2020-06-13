@@ -26,7 +26,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -90,7 +91,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"]
           }
         },
         "lint": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-market"
+    }
+  },
+  "defaultProject": "my-market",
+  "cli": {
+    "analytics": "c3983b91-050f-4e88-95da-b83f005bcea9"
+  }
 }
